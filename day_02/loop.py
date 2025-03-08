@@ -11,3 +11,9 @@ nums = [23, 25, 33, 26, 39]
 for item in nums:
     print("Item ", item ** 10)
     
+li = ["ko", "Ko", "choclate"]
+for i in li:
+    print("Item: ", i)
+    
+for index in range(len(li)):
+    print(list[index])
