@@ -17,3 +17,7 @@ for i in li:
     
 for index in range(len(li)):
     print(list[index])
+    
+lang = ['R', 'python', 'Go']
+for i in lang:
+    print(i)
