@@ -8,16 +8,32 @@ nums = [23, 25, 33, 26, 39]
 # tuple (2, 3, 4, 5)
 # set {3, 4, 5, 6}
 # dictionary {"key": "value", "name": "joinal"}
-for item in nums:
-    print("Item ", item ** 10)
+# for item in nums:
+#     print("Item ", item ** 10)
     
-li = ["ko", "Ko", "choclate"]
-for i in li:
-    print("Item: ", i)
+# li = ["ko", "Ko", "choclate"]
+# for i in li:
+#     print("Item: ", i)
     
-for index in range(len(li)):
-    print(list[index])
+# for index in range(len(li)):
+#     print(list[index])
     
-lang = ['R', 'python', 'Go']
-for i in lang:
-    print(i)
+# lang = ['R', 'python', 'Go']
+# for i in lang:
+#     print(i)
+
+# for i in range (0 , 5):
+#     print (i)
+
+languages = ['C++', 'Python', 'GoLang', 'R']
+for lang in languages:
+    if lang == 'R':
+        break
+    print(lang)
+
+# languages = ['Swift', 'Python', 'Go', 'C++']
+
+# for lang in languages:
+#     if lang == 'Go':
+#         break
+#     print(lang)
